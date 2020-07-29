@@ -1,0 +1,41 @@
+
+
+@media screen and  (min-width: 768px){
+  #content{
+    z-index: 99999;
+  }
+  div#content {
+    display: none;
+  
+  }
+  button:hover + div#content {
+    display: block;
+  }
+    .split{
+        height: 100%;
+        width: 50%;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+       }
+      .left{
+        margin-top: 3em;
+      left: 0;
+    padding-left: 3em;
+     }
+      
+      .right{
+        margin-top: 3em;
+        display: block;
+      right: 0;
+      padding-left: 3em;
+      overflow-y: hidden;
+      }
+      .infomain{
+        background-image: ;
+      }
+      .hidden{
+        display : none;
+        }
+}

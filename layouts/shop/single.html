@@ -1,0 +1,32 @@
+<head>
+  {{partial "header.html" . }}
+{{ partial "producthead.html" . }}
+{{ $style := resources.Get "css/shopstyle.css"}}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>
+
+<div class="main" id="main">
+  <div id='product-component-1592325681305'></div>
+  {{ partial "sizeselection.html" .}}
+<div class="products" >
+    {{ range .Site.Data.products }}
+    
+        <div onclick="location.href='{{ .product_url }}';" id="smallbox" class="product-card">
+        
+      
+          <img class="product-img" src="{{ .image }}" alt="" > 
+          <div class="product-name"> {{ .name }} </div>
+          
+      
+         
+          </div>
+          {{ end }}
+
+</div>
+
+
+
+
+</div>
+
+    

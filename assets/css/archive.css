@@ -1,0 +1,177 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    padding: 0;
+    background-image: linear-gradient(blue, white);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .navitems li a{
+    color: white;
+  }
+  .main{
+      margin: 2em;
+  }
+  .one img {
+    display: none;
+ }
+ .two img {
+    display: none;
+ }
+ .three img {
+    display: none;
+ }
+ .four img {
+    display: none;
+ }
+ .five img {
+    display: none;
+ }
+
+ p.one:hover  img{ 
+    display: block;
+ }
+ 
+ p.two:hover img{ 
+    display: block;
+ }
+ p.three:hover img{ 
+    display: block;
+ }
+ p.four:hover img{ 
+    display: block;
+ }
+ p.five:hover img{ 
+    display: block;
+ }
+
+ img.one{
+     width: 27%;
+     position: fixed;
+     top: 55%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     z-index: -1;
+ }
+ img.two{
+    width: 27%;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: -1;
+}
+img.three{
+    width: 27%;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: -1;
+}
+img.four{
+    width: 27%;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: -1;
+}
+img.five{
+    width: 27%;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: -1;
+}
+
+p{
+    border: black solid 1px;
+   
+}
+ .hovtest{
+
+position: relative;
+width: 50%;
+height: 10vh;
+ }
+
+ .hovtest.two:hover{
+
+    background: url("/img/inspo2.png") no-repeat;
+    position: fixed;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    height: 100%;
+width: 50%;
+ }
+ .hovtest.three:hover{
+
+    background: url("/img/inspo5.png") no-repeat;
+    position: relative;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+  
+ }
+ .hovtest.four:hover{
+
+    background: url("/img/inspo4.png") no-repeat;
+    position: fixed;
+  
+    transform: translate(-50%, -50%);
+    text-align: right;
+    height: 100%;
+width: 50%;
+ }
+ .hovtest:hover{
+  display:block;
+    background: url("/img/inspo3.png") no-repeat;
+    position: fixed;
+    top: 55%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+
+ }
+ @media screen and  (min-width: 767px){
+     .hover_img{
+        text-align: center;
+     }
+    p{
+        font-size: 6vw;
+        position: relative;
+       
+    }
+  
+    a{
+        font-size: 6vw;
+        position: relative;
+        z-index: 68999;
+    }
+    .hover_img a { position:relative; }
+    .hover_img a span { position:absolute; display:none; z-index:9; }
+    .hover_img a:hover span { display:block; }
+ .popup{
+  
+ }
+ .comfspeed{
+  
+    
+ }
+ .friendsfam{
+    left: 60%;
+    position: relative;
+   
+ }
+ }

@@ -1,0 +1,41 @@
+<head>
+    {{ partial "header.html" . }}
+    {{ partial "producthead.html" . }} 
+    {{ $style := resources.Get "/css/archive.css"}}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>
+<body>
+    
+<div class="main">
+    <div class="hover_img">
+        <a href="/sportsocks">2019 Summer Pop-up<span><img class="popup" src="/img/inspo1.png" alt="image" height="300" /></span></a>
+        <br> <br> <a href="/sportsocks">2019 Sport Socks<span><img class="sportsocks" src="/img/inspo4.png" alt="image" height="300" /></span></a>
+        <br> <br> <a href="/sportsocks">2018 Comfortable Speed<span><img class="comfspeed" src="/img/inspo4.png" alt="image" height="300" /></span></a>
+        <br> <br> <a href="/sportsocks">2018 Friends & Family<span><img class="friendsfam" src="/img/sporx5charles.JPG" alt="image" height="400" /></span></a>
+   </div>
+
+
+    </div>
+</body>
+
+<!--
+<p class="five" style="cursor: pointer; z-index: 100999;"  onclick="window.location='/sportsocks';">
+    &nbsp; &nbsp;2019 &nbsp; &nbsp; Pocket Longsleeve &nbsp;  &nbsp;
+    <img class="five" src="/img/popup-poster.jpg"/> 
+   
+<p class="four" style="cursor: pointer; z-index: 100999;"  onclick="window.location='/sportsocks';"> 
+    &nbsp; &nbsp;2019 &nbsp; &nbsp; Summer Pop-Up &nbsp;  &nbsp;
+        <img class="four" src="/img/popup-poster.jpg"/> 
+
+
+ 
+    <p class="one" style="cursor: pointer; z-index: 10999;"  onclick="window.location='/sportsocks';"> 
+        &nbsp; &nbsp;2018 &nbsp; &nbsp;  &nbsp;Friends & Family &nbsp;  &nbsp; 
+  <img class="one" src="/img/sporx5charles.JPG"/>
+<p class="one" style="cursor: pointer; z-index: 10999;"  onclick="window.location='/sportsocks';"> 
+    &nbsp; &nbsp;2018 &nbsp; &nbsp;  &nbsp;Friends & Family &nbsp;  &nbsp; 
+<img class="one" src="/img/sporx5charles.JPG"/>
+<p class="one" style="cursor: pointer; z-index: 10999;"  onclick="window.location='/sportsocks';"> 
+    &nbsp; &nbsp;2018 &nbsp; &nbsp;  &nbsp;Friends & Family &nbsp;  &nbsp; 
+<img class="one" src="/img/sporx5charles.JPG"/>
+-->

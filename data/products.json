@@ -1,0 +1,72 @@
+[
+  {
+    "id": "5320263041184",
+    "name": "D&G Pocket Longsleeve",
+    "price": 40,
+    "image": "/img/dglongsleeve_back.png",
+    "product_url": "/shop/dg_longsleeve"
+  }, 
+  {
+    "id": "5320113619104",
+    "name": "Macintosh Tee",
+    "price": 30,
+    "image": "/img/appletee.png",
+    "product_url": "/shop/macintosh_tee"
+  }, 
+  {
+    "id": "5320130855072",
+    "name": "Black Macintosh Tee",
+    "price": 30,
+    "image": "/img/blacksport.png",
+    "product_url": "/shop/macintosh_tee-black"
+  }, 
+  {
+    "id": "5320115028128",
+    "name": "IBM TEE",
+    "price": 30,
+    "image": "/img/IBM.png",
+    "product_url": "/shop/ibm_tee"
+  },
+  {
+    "id": "5320117551264",
+    "name": "Wholesale Tee",
+    "price": 30,
+    "image": "/img/wholesale.png",
+    "product_url": "/shop/wholesale_tee"
+  },
+  {
+    "id": "5320149074080",
+    "name": "Black Tote",
+    "price": 30,
+    "image": "/img/blacktote.png",
+    "product_url": "/shop/black_tote"
+  },
+  {
+    "id": "5320164278432",
+    "name": "Canvas Tote",
+    "price": 20,
+    "image": "/img/canvastote.png",
+    "product_url": "/shop/beige_tote"
+  },
+  {
+    "id": "5320341815456",
+    "name": "Navy Bucket Hat",
+    "price": 25,
+    "image": "/img/navy bucket.jpg",
+    "product_url": "/shop/navy_bucket"
+  },
+  {
+    "id": "5320322515104",
+    "name": "Beige Bucket Hat",
+    "price": 25,
+    "image": "/img/beige bucket.jpg",
+    "product_url": "/shop/beige_bucket"
+  },
+  {
+    "id": "5320343617696",
+    "name": "Pleasure Cap",
+    "price": 25,
+    "image": "/img/pleasurecap.jpg",
+    "product_url": "/shop/pleasure_cap"
+  }
+]

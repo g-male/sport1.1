@@ -1,0 +1,44 @@
+ <!-- 
+<nav class="product-filter">
+
+  <h1>PRODUCTS</h1>
+
+  <div class="sort">
+
+    <div class="collection-sort">
+      <label>Filter by:</label>
+      <select>
+        <option value="/">All Products</option>
+      </select>
+    </div>
+
+    <div class="collection-sort">
+      <label>Sort by:</label>
+      <select>
+        <option value="/">T-shirts</option>
+      </select>
+    </div>
+
+  </div>
+
+</nav>
+-->
+
+<div class="products">
+  <div onclick="location.href='{{ .product_url }}';" id="smallbox" class="product-card">
+  
+
+    <img class="product-img" src="{{ .image }}" alt="" > 
+    <div class="product-name"> {{ .name }} </div>
+    <div class="product-price"> ${{ .price }} </div>
+
+    
+    </div>
+  </div>
+  
+  <!-- It's likely you'll need to link the card somewhere. You could add a button in the info, link the titles, or even wrap the entire card in an <a href="..."> -->
+    
+  
+  <!-- more products -->
+
+
