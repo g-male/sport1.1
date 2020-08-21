@@ -1,32 +1,113 @@
-<head>{{ partial "header.html" . }}
-    {{ $style := resources.Get "css/info.css"}}
+<head>
     {{ partial "producthead.html" . }} 
+    {{ partial "header.html" . }}
+    {{ $style := resources.Get "css/info.css"}}
+  
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 </head>
+<div class="main">
 
+<div class="legend">
+  <a href="#contact"> Contact,  </a>
+    <a href="#resources"> Resources, </a> 
+ <a href="#newsletter"> Newsletter, </a> 
+ <a href="#terms">Terms & Conditions</a>
+</div>
+<div class="sportdesc">
+
+<a>
+Sport is the product of bootleg and ambiguity, blah b;ah open to multiple definitions. 
+<br>
+</a>  
+<hr style="height:2px;border-width:0;color:black;background-color:black">   
+
+</div>
+
+
+<a> <br>All garments are Unisex.  </a>
+<a> <br> All orders are final sale.   </a>
+<a> <br> <br>Please allow 1-2 days to process orders prior to shipment  <br> </a>
+
+<div class="emailinfo">
+  <a name="contact"></a>
+<br>
+<br>
+
+      <a>If you have Questions, Comments, Concerns, Order issues or just want to Chit-Chat email</a>
+      <a href="mailto:d-g@sportwebsite.ca" style="font-size: 2rem;"> <br> d-g@sportwebsite.ca</a>
+      
+    </div>
+
+   
+    <hr style="height:2px;border-width:0;color:black;background-color:black">
+   
     
-<button>Contact Us</button>
-<div id="content">
-  and the content will show.
+    <div class="resources"> 
+      <a name="resources"></a>
+     
+      <p> How to help</p>
+      <a>The effects of systemic racisim disproportionately affecting Black people and other POC</a>
+      <a> <br><br> Donate</a>
+      <ul class="list">  
+        <li>Know Your Rights Camp</li>
+        <li>Know Your Rights Camp</li>
+
+      </ul>
+
+     
+      <a><br><br> Reading Materials</a>
+    <ul class="list"> 
+<li>
+The Skin We're in by Desmond Cole
+</li>
+<a>Continue to educate yourself and those around you. </a>
+
+
+        
+       
+    
+      </div>
+      
+
+      <hr style="height:2px;border-width:0;color:black;background-color:black">
+
+<br>
+  <div class="form">
+    <div class="formdesc" > 
+      <a >By signing up for the newsletter you're agreeing to seasonal emails when we have something to share, such as playlists, reading material <br> </a>
+    </div>
+
+    <a  name="newsletter"></a>
+       <form name="contact" method="POST" data-netlify="true" id="newsform">
+       
+
+    <a>
+      <label>Name: <input type="text" name="name" /></label>   
+    </p>
+   
+    <a>
+      <label>Email: <input type="text" name="email" /></label>
+    </p>
+
+    <p>
+    
+      <button type="submit" class="button">Done</button>
+    </p>
+
+</form> 
 </div>
-<div class="infomain">   
+<br> <br> 
+  <div class="terms">
+    <a name="terms"></a>
 
-
-<div class="split left"> 
-    <p style="font-size:5.5vw; font-weight: bolder;">Contact Us</p>
-    <a style="font-size:4vw; font-weight: lighter;"> Instagram</a>
-    <p href="mailto:d-g@sportwebsite.ca" style="font-size:4vw; font-weight: lighter;"> d-g@sportwebsite.ca</p>
 </div>
 
 
-<div class="split right"> 
-    <p style="font-size:5.5vw; font-weight: bolder;">Terms & Conditions</p>
-    <p style="font-size:4vw; "> Please allow 1-2 days to process orders prior to shipment</p>
-    <p style="font-size:4vw; "> All garments are Unisex</p>
-</div>
+
+
 <!--<img src="http://1.bp.blogspot.com/-B_xehZPN6i0/VpKxkRTDriI/AAAAAAAABPE/y7g4E40VkQY/s1600/guy_running_fast_hg_clr.gif"></img>-->
 
-</div>
+
 
 <script>
 

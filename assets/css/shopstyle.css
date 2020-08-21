@@ -12,6 +12,7 @@ body, html {
 body {
   margin: 0;
   font-family: Arial;
+  overflow-x: hidden;
 }
 
   
@@ -47,8 +48,8 @@ overflow: hidden;
  
 }
 .product-card{
-  
-  border-top: 2px solid black;
+ 
+  border-bottom: 2px solid black;
 border-right: 2px solid black;
 
 
@@ -74,6 +75,7 @@ text-align: left;
 position: relative;
 border: none;
 left: 15%;
+margin: 0 auto;
   
   }
   #smallbox {
@@ -86,9 +88,11 @@ left: 15%;
   @media (min-width: 300px){
     .product-card{
       flex: 0 50%;
-      
+      min-height: 180px;
     }
-  
+    .main{
+      padding-bottom: 8vh;
+    }
   }
 
 

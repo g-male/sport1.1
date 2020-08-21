@@ -1,0 +1,13 @@
+<head>
+    {{partial "header.html" . }}
+  {{ partial "producthead.html" . }}
+  {{ $style := resources.Get "css/videopage.css"}}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  </head>
+
+  <div class="centered">
+  <video width="60%" autoplay>
+    <source src="/video/longsleeve_vid.mp4" type="video/mp4">
+   
+  </video>
+  </div>

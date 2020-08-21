@@ -1,41 +1,170 @@
+a{
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+hr{
+  
+}
+a:visited {
+  color: black;
+}
+.main{
+  margin: 3rem;
+}
+.legend{
+  margin-bottom: 3rem;
+
+}
+.legend a:hover{
+  text-decoration: underline;
+}
+p{
+  
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.button {
+  background-color: white; /* Green */
+  border: black 2px solid;
+  color: black;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+.button:hover{
+  background-color: blue;
+}
+.emailinfo{
+  margin-bottom: 2rem;
+}
+.resources{
+  margin-bottom: 2rem;
+  text-align: left;
+  
+}
 
 
+@media screen and  (min-width: 300px){
+  input[type=text] {
+    
+    padding: 1rem 2rem;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .legend{
+    display: none;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+
+  .sportdesc{
+    width: auto;
+  }
+  .main{
+    margin: 1.5rem;
+  }
+  .list li{
+    font-size: 1.5rem;
+  }
+.split{
+  display: none;
+}
+p{
+  font-size: 4rem;
+  font-weight: 600;
+}
+.main a{
+  font-size: 2rem;
+}
+#newsform{
+  position: relative;
+  left: 0;
+}
+
+}
 @media screen and  (min-width: 768px){
+  input[type=text] {
+    
+    padding: 1rem;
+    margin: 0;
+    
+    box-sizing: border-box;
+  }
+  #newsform{
+    left: 50%;
+     position: relative;
+     width: 300px;
+    }
+  p{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+.formdesc{
+  height: 2vh;
+  width: 40vw;
+}
+.list li{
+  font-size: 2rem;
+}
+  .legend a{
+    font-size: 3.5rem;
+    font-weight: lighter;
+  }
+  .legend{
+    display: block;
+  }
+  .sportdesc{
+   text-align: left;
+  }
+.mblinfo{
+  display: none;
+}
+.form{
+  position: relative;
+}
+
+.terms{
+  position: relative;
+}
+.emailinfo{
+  position: relative;
+  text-align: center;
+
+
+}
   #content{
     z-index: 99999;
   }
-  div#content {
-    display: none;
+
+
+
+}
+
+/* Control the left side */
+.left {
+
+  left: 0;
+margin-left: 2em;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
   
-  }
-  button:hover + div#content {
-    display: block;
-  }
-    .split{
-        height: 100%;
-        width: 50%;
-        position: absolute;
-        z-index: 1;
-        top: 0;
-        overflow-x: hidden;
-       }
-      .left{
-        margin-top: 3em;
-      left: 0;
-    padding-left: 3em;
-     }
-      
-      .right{
-        margin-top: 3em;
-        display: block;
-      right: 0;
-      padding-left: 3em;
-      overflow-y: hidden;
-      }
-      .infomain{
-        background-image: ;
-      }
-      .hidden{
-        display : none;
-        }
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+ 
 }

@@ -1,22 +1,42 @@
 <head>
-    {{ partial "header.html" . }}
     {{ partial "producthead.html" . }} 
+    {{ partial "header.html" . }}
+
     {{ $style := resources.Get "/css/archive.css"}}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     
 <div class="main">
-    <div class="hover_img">
-        <a href="/sportsocks">2019 Summer Pop-up<span><img class="popup" src="/img/inspo1.png" alt="image" height="300" /></span></a>
-        <br> <br> <a href="/sportsocks">2019 Sport Socks<span><img class="sportsocks" src="/img/inspo4.png" alt="image" height="300" /></span></a>
-        <br> <br> <a href="/sportsocks">2018 Comfortable Speed<span><img class="comfspeed" src="/img/inspo4.png" alt="image" height="300" /></span></a>
-        <br> <br> <a href="/sportsocks">2018 Friends & Family<span><img class="friendsfam" src="/img/sporx5charles.JPG" alt="image" height="400" /></span></a>
-   </div>
+    
 
+   <div class="archive-list">
+   
+ 
+        <div class="txt txtdglongsleeve" onclick="location.href='/dglongsleeve';">2019 &nbsp; &nbsp; &nbsp; D&G Pocket Longsleeve </div>
+        <img  class="img popup" src="/img/lsvid1.png" alt="popup"  />
+        
+      
+        <div class="txt txtsummer19" onclick="location.href='/summer19';">2019 &nbsp; &nbsp; &nbsp; Summer Popup</div>
+            <img  class="img popup" src="/img/summerkieran.png" alt="popup"  />
+             <br> <br> 
+        <div class="txt txtsportsocks" onclick="location.href='/sportsocks';">2019 &nbsp; &nbsp; &nbsp; Sport Socks</div>
+            <img class="img sportsocks" src="/img/greensockvid.png" alt="image"  />
+                <br> <br> 
+        <div class="txt txtcomfspeed">2018 &nbsp; &nbsp; &nbsp; Comfortable Speed</div>
+            <img class="img comfspeed" src="/img/sweatsuit.jpg" alt="image" style="width: 27%;"/>
+                <br> <br> 
+        <div class="txt txtfriendsfam" >2018  &nbsp; &nbsp; &nbsp; Friends & Family</div>
+            <img class="img friendsfam" src="/img/meat-packaging1.jpg" alt="Meat Packaging" />
+ 
 
-    </div>
+</div>
+</div>
 </body>
+
+
+
 
 <!--
 <p class="five" style="cursor: pointer; z-index: 100999;"  onclick="window.location='/sportsocks';">

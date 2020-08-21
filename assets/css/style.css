@@ -8,11 +8,17 @@ body, html {
   padding: 0;
  
 }
+/* for animation star */ 
+#main{
+  width: auto;
+}
 /* navigation bar */ 
 .weblogo{
   display: block;
 margin-left: auto;
 margin-right: auto;
+margin-top: 2vh;
+margin-bottom: 1vh;
 z-index: 11999;
 height: 50px;
 width: 200px;
@@ -33,6 +39,7 @@ width: 200px;
   display: block;
   
 }
+/*margin between nav links */
 li{ 
   margin: 7px ;
 }
@@ -42,40 +49,40 @@ li{
   position: relative;
 }
 .navbar{
-  display: none;
+  display: block;
 overflow: hidden;
 position: absolute;
 top: 0;
 z-index: 9999;
 }
 .navitems li a{
-
 display: block;
 color: #1d31e7;
 text-align: center;
 padding: 10px 10px;
 text-decoration: none;
-font-size: 1.3em;
+
 font-weight: bold;
 border-left: #fffb00 solid 3px;
 border-right: #fffb00 solid 3px;
 border-top: #fffb00 solid 3px;
 border-bottom: #fffb00 solid 3px;
 }
+.navitems li a:hover {
+  background-color:#fffb00;
+  font-weight: bolder;
+}
+.footer{
+  margin-left: 2vw;
 
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  background-image: none;
+  height: 50px;
+}
 @media (min-width: 300px) /*tablet and above */ {
 
-  .toplogo{
-    position:relative;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 1000;
-  }
- 
-  .buttonclick{
-   display: none;
-  }
   .navbar{
     display: block;
     margin-top: 0;
@@ -86,7 +93,6 @@ border-bottom: #fffb00 solid 3px;
 
   .navitems{
     padding: 0;
-    
     list-style: none;
    margin: 0 auto;
    text-align: center;
@@ -94,9 +100,8 @@ border-bottom: #fffb00 solid 3px;
  
  .navitems li {
 
-  
   display:inline-block;
-  
+
 }
 
 .navitems li a {
@@ -105,10 +110,7 @@ border-bottom: #fffb00 solid 3px;
   text-decoration: none;
 }
 
-.navitems li a:hover {
-  background-color:#fffb00;
-  font-weight: bolder;
-}
+
 
 .active {
   background-color: #4CAF50;
@@ -130,23 +132,17 @@ border-bottom: #fffb00 solid 3px;
 
 @media (min-width: 250px){
 .bg-image{
-height: 47%;
+height: 43vh;
   margin-bottom: 2vh;
 }
 }
-@media (min-width:408px){
+@media (min-width:420px){
   .bg-image{
-    height: 50%;
+    height: 43vh;
     margin-bottom: 2vh;
   }
 }
 @media (min-width:650px){
-  .bg-image{
-    
-    margin-bottom: 2vh;
-  }
-}
-@media (min-width: 992px) /*desktop */   {
   .bg-image{
     height: 50%;
      margin-bottom: 2vh;
@@ -190,7 +186,7 @@ height: 47%;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-width: 160px;
+
 
 }
 
@@ -198,6 +194,29 @@ width: 160px;
   background-color: rgb(229, 255, 112);
   font-weight: bolder;
 }
+
+.active {
+  background-color: #4CAF50;
+}
+     
+}
+@media (min-width: 992px) /*desktop */   {
+  .bg-image{
+    height: 50%;
+     margin-bottom: 2vh;
+   }
+  .toplogo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1999;
+  }
+
+ 
+  .buttonclick{
+   display: none;
+  }
+
 
 .active {
   background-color: #4CAF50;
@@ -229,19 +248,21 @@ width: 160px;
 }--*/
 /* ------LOGO SPIN ANIMATION------- --*/
 /* ------LOGO SPIN ANIMATION------- -- */
+.shopanimg{
+  height: 230px;
+  width: 400px;
+  animation-name: animg2;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -115px;
+  margin-left: -200px;
 
-  .animg{
-    animation-name: animg2;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -155px;
-    margin-left: -240px;
-   
-    animation-duration: 8500ms;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-  }
+  animation-duration: 8500ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
   .animation2{
     animation-name: animg2;
     position: fixed;
@@ -254,35 +275,24 @@ width: 160px;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
-  .animation3{
-    animation-name: animg2;
-    position: fixed;
-    top: 80%;
-    left: 50%;
-    margin-top: -155px;
-    margin-left: -240px;
-   animation-direction: reverse;
-    animation-duration: 10000ms;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-  }
 
-@keyframes animg2 {
-  from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
-}
+
+  @keyframes animg2 {
+    from {transform:rotate(0deg);}
+      to {transform:rotate(360deg);}
+  }
 
 
 
 @media only screen and (min-width:767px)  {
-.animg{
+.shopanimg{
 	animation-name: animg;
 	position: fixed;
 	
 	 top: 50%;
   left: 50%;
-  margin-top: -155px;
-  margin-left: -240px;
+  margin-top: -115px;
+  margin-left: -200px;
 
 	animation-duration:70000ms;
 	animation-iteration-count: infinite;
@@ -343,4 +353,5 @@ width: 160px;
     -moz-transform: translate(-560px, -560px) rotate(180deg);
   }
 }
+
 }

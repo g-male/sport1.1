@@ -12,166 +12,117 @@ body, html {
     color: white;
   }
   .main{
-      margin: 2em;
+      margin-top: 4em;
+      width: 100%;
+      height: auto;
+     
   }
-  .one img {
-    display: none;
- }
- .two img {
-    display: none;
- }
- .three img {
-    display: none;
- }
- .four img {
-    display: none;
- }
- .five img {
-    display: none;
- }
-
- p.one:hover  img{ 
-    display: block;
- }
- 
- p.two:hover img{ 
-    display: block;
- }
- p.three:hover img{ 
-    display: block;
- }
- p.four:hover img{ 
-    display: block;
- }
- p.five:hover img{ 
-    display: block;
- }
-
- img.one{
-     width: 27%;
-     position: fixed;
-     top: 55%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     text-align: center;
-     z-index: -1;
- }
- img.two{
-    width: 27%;
-    position: fixed;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: -1;
-}
-img.three{
-    width: 27%;
-    position: fixed;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: -1;
-}
-img.four{
-    width: 27%;
-    position: fixed;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: -1;
-}
-img.five{
-    width: 27%;
-    position: fixed;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: -1;
-}
 
 p{
     border: black solid 1px;
    
 }
- .hovtest{
 
-position: relative;
-width: 50%;
-height: 10vh;
- }
-
- .hovtest.two:hover{
-
-    background: url("/img/inspo2.png") no-repeat;
-    position: fixed;
-    top: 60%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-    text-align: right;
-    height: 100%;
-width: 50%;
- }
- .hovtest.three:hover{
-
-    background: url("/img/inspo5.png") no-repeat;
-    position: relative;
-    top: 60%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-    text-align: right;
-  
- }
- .hovtest.four:hover{
-
-    background: url("/img/inspo4.png") no-repeat;
-    position: fixed;
-  
-    transform: translate(-50%, -50%);
-    text-align: right;
-    height: 100%;
-width: 50%;
- }
- .hovtest:hover{
-  display:block;
-    background: url("/img/inspo3.png") no-repeat;
-    position: fixed;
-    top: 55%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-
- }
  @media screen and  (min-width: 767px){
-     .hover_img{
-        text-align: center;
-     }
-    p{
-        font-size: 6vw;
-        position: relative;
-       
-    }
-  
-    a{
-        font-size: 6vw;
-        position: relative;
-        z-index: 68999;
-    }
-    .hover_img a { position:relative; }
-    .hover_img a span { position:absolute; display:none; z-index:9; }
-    .hover_img a:hover span { display:block; }
- .popup{
-  
- }
- .comfspeed{
-  
     
+ .archive-list{
+   width: 960px;
+   height: auto;
+   display: inline-block;
+   border: 1px solid black;
+   margin: 0 auto;
  }
- .friendsfam{
-    left: 60%;
-    position: relative;
+ 
+     /*Position and size images */
+    .img{
+      display: none;
+      position: absolute;
+    
+    width: 50%;
+    }
+    .img{
+      border: 1px solid black;
+      padding: 2px;
+    }
+    .centered{
+      left: 50%; 
+      -webkit-transform: translate(-50%, 0); 
+      position: fixed;
+    
+      width: 90%;
+      height: 75%;
+    }
+         /*Position and size text */
+    .txt{
+      
+      position: relative;
+     display: block;
+      width: 100%;
+      height: auto;
+   font-size: 4em;
+   font-weight: normal;
+   z-index: 9999;
+   border-width: 15%;
    
- }
- }
+    }
+    .txt:hover{
+  text-decoration: underline;
+   }
+  
+ 
+   /*Show image on hover */
+    .txtfriendsfam:hover + .friendsfam{
+      display: block;
+    
+   }
+   .txtcomfspeed:hover + .comfspeed{
+      display: block;
+    
+   }
+    .txtsportsocks:hover + .sportsocks{
+      display: block;
+
+   
+   }
+   
+    .txtsummer19:hover + .popup{
+      display: block;
+    
+   }
+   .txtdglongsleeve:hover + .popup{
+      display: block;
+    
+   }
+   .txtdyedpants:hover + .popup{
+      display: block;
+    
+   }
+
+    
+    /* Control the left side */
+    .left {
+    
+      left: 0;
+    
+    }
+    
+    /* Control the right side */
+    .right {
+      right: 0;
+    
+    }
+    
+    /* If you want the content centered horizontally and vertically */
+    .centered {
+
+      position: absolute;
+    top: 32%;
+   
+
+
+    }
+
+
+}
+
+ 
