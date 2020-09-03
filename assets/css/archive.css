@@ -3,13 +3,14 @@ body, html {
     margin: 0;
     font-family: Arial;
     padding: 0;
-    background-image: linear-gradient(blue, white);
+    background-image: linear-gradient(white, white);
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
   .navitems li a{
-    color: white;
+    color: #1d31e7;
+    font-size: 1.5rem;
   }
   .main{
       margin-top: 4em;
@@ -22,54 +23,210 @@ p{
     border: black solid 1px;
    
 }
-
+@media screen and  (min-width: 300px){
+  .img{
+    width: 98%;
+    border: 3px yellow solid;
+  }
+.txt{
+  font-size: 2rem;
+}
+}
  @media screen and  (min-width: 767px){
+  body{
+    overflow-x: hidden;
+  }
+
+  .img.comfspeed{
+    width: 55%;
+    left: 20%;
+  }
+  .img.popup{
+    width: 100%;
+margin-left: 1.5rem;
+  }
   .parent{
     margin-top: 4em;
-    width: 1000px;
+    width: 100%;
     height: auto;
    position: relative;
+   
 }
- .archive-list{
+ #archive-list{
    width: 100%;
-   height: auto;
    display: inline-block;
-   margin: 10px auto;
-   position: relative;
-   left: 35%;
+   margin: 0 auto;
+   
+
+    margin-left: 2rem;
+
  }
- 
+ .fltright{
+   float: right;
+ }
+ .fltright:hover{
+   text-decoration: underline;
+ }
      /*Position and size images */
     .img{
       display: none;
       position: fixed;
-    top: 20%;
-    left: 10%;
-    width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+   top: 0.5%;
+   left: 0;
+    height: 100%;
+    width: 105%;
+    border: none ;
+
     }
-    .img{
-     
-    }
-    .centered{
-      left: 50%; 
-      -webkit-transform: translate(-50%, 0); 
-      position: fixed;
     
-      width: 90%;
-      height: 75%;
-    }
+
          /*Position and size text */
     .txt{
-      
-      position: relative;
+    margin: 0 auto;
+      position: absolute;
      display: block;
-      width: 100%;
+      width: 90%;
       height: auto;
-   font-size: 4em;
+   font-size: 3rem;
    font-weight: lighter;
    z-index: 9999;
    border-width: 15%;
+   z-index: 999;
+padding-left: 3rem;
+    }
+    .txt:hover + .fltright:hover{
+  text-decoration: underline;
+   }
+  .txtdglongsleeve:hover{
+    text-decoration: underline;
+  }
+  
+ 
+   /*Show image on hover */
+    .txtfriendsfam:hover + .friendsfam{
+      
+      display: block;
+   }
+   .txtcomfspeed:hover + .comfspeed{
+      display: block;
+    
+   }
+    .txtsportsocks:hover + .sportsocks{
+      display: block;
+
    
+   }
+   
+    .txtsummer19:hover + .popup{
+      display: block;
+    
+   }
+   .txtdglongsleeve:hover + .dglongsleeve{
+      display: block;
+    
+   }
+   .txtdyedpants:hover + .popup{
+      display: block;
+    
+   }
+
+    
+    /* Control the left side */
+    .left {
+    
+      left: 0;
+    
+    }
+    
+    /* Control the right side */
+    .right {
+      right: 0;
+    
+    }
+    
+    /* If you want the content centered horizontally and vertically */
+    .centered {
+
+      position: absolute;
+    top: 32%;
+   
+
+
+    }
+
+
+}
+@media screen and  (min-width: 992px){
+  body{
+    overflow-x: hidden;
+  }
+  .img1 { background-image: url("/img/inspo1.png");
+width: 100%;
+height: 100%;
+display: none;
+  }
+  .img.comfspeed{
+    width: 40%;
+    left: 30%;
+  }
+  .img.popup{
+    width: 50%;
+  margin: auto 0;
+  left: 25%;
+  }
+  .parent{
+    margin-top: 4em;
+    width: 100%;
+    height: auto;
+   position: relative;
+
+}
+ #archive-list{
+   width: 100%;
+   display: inline-block;
+   margin: 0 auto;
+   
+ margin-left: 2rem;
+    
+cursor: pointer;
+ }
+ .fltright{
+   float: right;
+ }
+ .fltright:hover{
+   text-decoration: underline;
+ }
+     /*Position and size images */
+    .img{
+      display: none;
+      position: fixed;
+      margin-left: auto;
+      margin-right: auto;
+   top: 0.2%;
+   left: 0;
+    height: 100%;
+    width: 100%;
+
+    }
+    .img{
+
+    }
+
+         /*Position and size text */
+    .txt{
+    margin: 0 auto;
+      position: absolute;
+     display: block;
+      width: 90%;
+      height: auto;
+   font-size: 3rem;
+   font-weight: lighter;
+   z-index: 9999;
+   border-width: 15%;
+   z-index: 999;
+
     }
     .txt:hover{
   text-decoration: underline;
@@ -78,8 +235,8 @@ p{
  
    /*Show image on hover */
     .txtfriendsfam:hover + .friendsfam{
+      
       display: block;
-    
    }
    .txtcomfspeed:hover + .comfspeed{
       display: block;
@@ -130,5 +287,6 @@ p{
 
 
 }
+
 
  

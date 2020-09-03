@@ -50,6 +50,9 @@ p{
 
 
 @media screen and  (min-width: 300px){
+  .block3 a{
+    font-size: 0.5rem;
+  }
   input[type=text] {
     
     padding: 1rem 2rem;
@@ -89,6 +92,12 @@ p{
 
 }
 @media screen and  (min-width: 768px){
+  .block3{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .block3 ul{
+    list-style-type: none;
   input[type=text] {
     
     padding: 1rem;

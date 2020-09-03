@@ -14,7 +14,9 @@ body {
   font-family: Arial;
   overflow-x: hidden;
 }
-
+.navitems li a{
+  font-size: 1.5rem;
+}
   
 
 /* ------HEADER LOGO SPIN---------*/
@@ -89,9 +91,13 @@ margin: 0 auto;
     .product-card{
       flex: 0 50%;
       min-height: 180px;
+      
     }
     .main{
       padding-bottom: 8vh;
+    }
+    .navitems li a{
+      font-size: 1.3rem;
     }
   }
 
