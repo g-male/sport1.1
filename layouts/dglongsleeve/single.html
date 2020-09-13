@@ -4,7 +4,7 @@
   {{ $style := resources.Get "css/videopage.css"}}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
   </head>
-
+<div class="main">
   <div class="centered">
   <video width="50%" autoplay onclick="this.paused ? this.play() : this.pause();".>
     <source src="/video/longsleeve_vid.mp4" type="video/mp4">
@@ -14,3 +14,4 @@
   <img  class="sockimg" src="/img/LS_front.png" alt="sock_packaging"  />
   <img  class="sockimg" src="/img/dglongsleeve_back.png" alt="sock_packaging"  />
   </div>
+</div>

@@ -21,12 +21,19 @@
 <img class="product-image one" src="{{ .Params.image}}"  alt=""> 
 
 <div class="mobiletext"> 
-  <div class="name"> {{ .Params.name }} <br> {{.Params.Price}} CAD <br></div>
+  <div class="name"> {{ .Params.name }} <br> <span class="price"> {{.Params.Price}} CAD</span> <br></div>
   
   <div class="description" > {{ .Params.shortDescription | safeHTML }} <br> </div>
   <br>
   {{ partial "mbl_sizeselection.html" . }}
-  
+  <div style="text-align:center; width: 100%;">  
+  <div class="sizeselect">
+
+  {{ partial "sizesmall.html" . }}  {{ partial "sizemed.html" . }}
+  {{ partial "sizelarge.html" . }}     {{ partial "sizexlarge.html" . }}
+
+</div>
+</div>
 </div>
 
 </div>
@@ -43,7 +50,7 @@
 {{ partial "sizeselection.html" . }}
 
 
- 
+
 </div>
 </div>
 

@@ -10,10 +10,10 @@ body, html {
   }
   .navitems li a{
     color: #1d31e7;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .main{
-      margin-top: 4em;
+      margin-top: 2em;
       width: 100%;
       height: auto;
      
@@ -23,6 +23,9 @@ p{
     border: black solid 1px;
    
 }
+.txt a:hover{
+ 
+}
 @media screen and  (min-width: 300px){
   .img{
     width: 98%;
@@ -30,6 +33,7 @@ p{
   }
 .txt{
   font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 }
  @media screen and  (min-width: 767px){
@@ -38,8 +42,8 @@ p{
   }
 
   .img.comfspeed{
-    width: 55%;
-    left: 20%;
+    width: 50%;
+    left: 25%;
   }
   .img.popup{
     width: 100%;
@@ -47,13 +51,13 @@ margin-left: 1.5rem;
   }
   .parent{
     margin-top: 4em;
-    width: 100%;
+    width: 85%;
     height: auto;
    position: relative;
    
 }
  #archive-list{
-   width: 100%;
+   width: 75%;
    display: inline-block;
    margin: 0 auto;
    
@@ -65,7 +69,7 @@ margin-left: 1.5rem;
    float: right;
  }
  .fltright:hover{
-   text-decoration: underline;
+   
  }
      /*Position and size images */
     .img{
@@ -89,7 +93,7 @@ margin-left: 1.5rem;
      display: block;
       width: 90%;
       height: auto;
-   font-size: 3rem;
+   font-size: 2.6rem;
    font-weight: lighter;
    z-index: 9999;
    border-width: 15%;
@@ -97,10 +101,10 @@ margin-left: 1.5rem;
 padding-left: 3rem;
     }
     .txt:hover + .fltright:hover{
-  text-decoration: underline;
+ 
    }
   .txtdglongsleeve:hover{
-    text-decoration: underline;
+    
   }
   
  
@@ -168,27 +172,27 @@ height: 100%;
 display: none;
   }
   .img.comfspeed{
-    width: 40%;
-    left: 30%;
+    width: 50%;
+    left: 25%;
   }
   .img.popup{
-    width: 50%;
+    width: 55%;
   margin: auto 0;
   left: 25%;
   }
   .parent{
     margin-top: 4em;
-    width: 100%;
+    width: 85%;
     height: auto;
    position: relative;
-
+   margin-left: 5rem;
 }
  #archive-list{
    width: 100%;
    display: inline-block;
    margin: 0 auto;
    
- margin-left: 2rem;
+ 
     
 cursor: pointer;
  }
@@ -196,7 +200,7 @@ cursor: pointer;
    float: right;
  }
  .fltright:hover{
-   text-decoration: underline;
+
  }
      /*Position and size images */
     .img{
@@ -229,7 +233,7 @@ cursor: pointer;
 
     }
     .txt:hover{
-  text-decoration: underline;
+  
    }
   
  

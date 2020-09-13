@@ -15,14 +15,14 @@
   }, 
   {
     "id": "5320130855072",
-    "name": "Black Macintosh Tee",
+    "name": "Macintosh Tee",
     "price": 30,
     "image": "/img/blacksport.png",
     "product_url": "/shop/macintosh_tee-black"
   }, 
   {
     "id": "5320115028128",
-    "name": "IBM TEE",
+    "name": "IBM Tee",
     "price": 30,
     "image": "/img/IBM.png",
     "product_url": "/shop/ibm_tee"
@@ -43,7 +43,7 @@
   },
   {
     "id": "5320164278432",
-    "name": "Canvas Tote",
+    "name": "Beige Tote",
     "price": 20,
     "image": "/img/canvastote.png",
     "product_url": "/shop/beige_tote"

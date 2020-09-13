@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    padding: 0;
+  overflow-x: hidden;
+  }
+  @media screen and  (min-width: 300px){
+  .imgcontainer {
+margin: 3vw;
+  }
+.img{
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+  }
+@media screen and  (min-width: 767px){
+    .img{
+        width: 50%;
+        padding-bottom: 0.5rem;
+        margin: 0 auto;
+        position: relative;
+        
+    }
+    .imgcontainer{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin: 0;
+        margin-top: 2vw;
+    }
+}
+
+ @media (max-width: 968px) {
+
+ }
+
+ 
+ #photos img {
+   /* Just in case there are inline attributes */
+   width: 50% !important;
+   height: auto !important;
+ }
+ 
+ @media (max-width: 1200px) {
+   #photos {
+   -moz-column-count:    4;
+   -webkit-column-count: 4;
+   column-count:         4;
+   }
+ }
+ 
+
+ 

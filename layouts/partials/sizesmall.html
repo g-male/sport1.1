@@ -1,4 +1,4 @@
-<div id='product-component-1594604439669'></div>
+<div id='product-component-1599232528402'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -27,7 +27,8 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '{{.Params.id}}',
-        node: document.getElementById('product-component-1594604439669'),
+          variantId: '{{.Params.idS}}',
+        node: document.getElementById('product-component-1599232528402'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -54,8 +55,8 @@
           "background-color": "#e6e200"
         },
         "border-radius": "0px",
-        "padding-left": "49px",
-        "padding-right": "49px"
+        "padding-left": "23px",
+        "padding-right": "23px"
       },
       "quantityInput": {
         "font-size": "18px",
@@ -66,11 +67,12 @@
     "contents": {
       "img": false,
       "title": false,
-      "price": false
-     
+      "price": false,
+      "options": false
     },
     "text": {
-      "button": "Add to Cart"
+      "button": "S",
+      "outOfStock": "S"
     }
   },
   "productSet": {
@@ -112,8 +114,8 @@
           "background-color": "#e6e200"
         },
         "border-radius": "0px",
-        "padding-left": "49px",
-        "padding-right": "49px"
+        "padding-left": "23px",
+        "padding-right": "23px"
       },
       "quantityInput": {
         "font-size": "18px",

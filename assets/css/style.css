@@ -6,7 +6,7 @@ body, html {
   margin: 0;
   font-family: Arial;
   padding: 0;
- 
+overflow-x: hidden;
 }
 /* for animation star */ 
 #main{
@@ -61,7 +61,7 @@ color: #1d31e7;
 text-align: center;
 padding: 10px 10px;
 text-decoration: none;
-font-size: 1.5rem;
+font-size: 1.3rem;
 font-weight: bold;
 border-left: #fffb00 solid 3px;
 border-right: #fffb00 solid 3px;
@@ -194,7 +194,7 @@ height: 43vh;
 }
 
 .navitems li a:hover {
-  background-color: rgb(229, 255, 112);
+  background-color: #fffb00;
   font-weight: bolder;
 }
 

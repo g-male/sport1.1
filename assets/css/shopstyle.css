@@ -20,13 +20,7 @@ body {
   
 
 /* ------HEADER LOGO SPIN---------*/
-.templogo:hover{
-  animation-name: logospin;
-  animation-duration:1000ms;
-  animation-iteration-count: 1;
-  
-animation-timing-function: linear;
-}
+
 
 @keyframes logospin {
   from {
@@ -51,19 +45,20 @@ overflow: hidden;
 }
 .product-card{
  
-  border-bottom: 2px solid black;
-border-right: 2px solid black;
-
+border: 1.5px solid black;
 
 }
+.product-card {
+border-left: 1px solid transparent;
+border-top: 1px solid transparent;
 
-
+}
  .product-card:hover {
 
   }
 
   .product-name{
-    font-size: 1.3em;
+    font-size: 1.5rem;
     text-align: center;
 
       }
@@ -84,17 +79,25 @@ margin: 0 auto;
     cursor: pointer;
 }
 
+.product-card{
 
+}
 
 
   @media (min-width: 300px){
+    .product-name{
+      font-size: 1.3rem;
+      text-align: center;
+  
+        }
+   
     .product-card{
       flex: 0 50%;
-      min-height: 180px;
-      
+      padding: 0.5rem;
     }
     .main{
       padding-bottom: 8vh;
+      margin-top: 0.5rem;
     }
     .navitems li a{
       font-size: 1.3rem;
@@ -117,13 +120,14 @@ margin: 0 auto;
       flex: 1 50%;
       flex-grow: 0;
      overflow: hidden;
+     padding: 1.5rem;
     }
 
 
 }
 @media (min-width: 992px) /*desktop */   {
   .main{
-    margin-top: em;
+
     
     }
     .product-img {
@@ -136,7 +140,7 @@ margin: 0 auto;
     .product-card{
       flex: 1 33.33%;
       flex-grow: 0;
-     
+     padding: 1.5rem;
     }
 }
 

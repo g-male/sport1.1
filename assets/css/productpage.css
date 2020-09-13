@@ -17,13 +17,34 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   cursor: url('/static/img/cursor.svg'), auto;
 }
+
 .weblogo{
   z-index: 99999;
 }
-.navitems li a{
-  font-size: 1.5rem;
+
+#shopify-buy_btn-wrapper{
+
+display: inline-block;
+position: relative;
 }
-@media screen and  (min-width: 300px){
+.sizeselect{
+display: inline-block;
+width: 20%;
+
+}
+
+#product-component-1599232528402{
+  position: relative;
+  display: block;
+ margin: 0 auto;
+ z-index: 999;
+
+}
+@media screen and  (min-width: 200px){
+
+  body{
+    overflow-x: hidden;
+  }
 .right{
   display: none;
 }
@@ -32,7 +53,7 @@ body {
   margin-top: -1rem;
   min-height: 100%;
   margin-bottom: -25px;
-overflow-x: hidden;
+
 }
 .main:after {
   content: "";
@@ -44,10 +65,11 @@ overflow-x: hidden;
 .mobiletext .name {
   text-align: center;
   position: relative;
-font-size: 3vh;
+font-size: 1.6rem;
 margin: 0 auto;
-font-weight: bold;
+font-weight: 500;
 border-top: 0.5px solid black;
+border-bottom: 0.5px solid black;
 border-left: 0.5px solid black;
 border-right: 0.5px solid black;
 margin-right: 3vw;
@@ -56,13 +78,20 @@ margin-right: 3vw;
 .mobiletext .description{
   position: relative;
   text-align: center;
-   font-size: 1.9vh;
-   font-weight: bold;
+   font-size: 1rem;
+   font-weight: 400;
    border-bottom: 0.5px solid black;
    border-left: 0.5px solid black;
    border-right: 0.5px solid black;
   margin-right: 3vw;
   margin-left: 3vw;
+  padding: 3px;
+ }
+ .mobiletext .price{
+  position: relative;
+  text-align: center;
+   font-size: 1rem;
+   font-weight: 400;
  }
 .product-image{
   display: block;
@@ -117,9 +146,7 @@ display: none;
     display:none;
   }
    /* PRODUCT LIST STYLE*/
-   .main{
-
-    }
+   
   
    .split{
     height: 100%;
@@ -161,18 +188,18 @@ display: none;
     }
   .name {
   position: relative;
-  font-size: 3vw;
+  font-size: 1.8rem;
 padding: 0.3em;
-  font-weight: normal;
+  font-weight: 500;
   border-bottom: 1px solid black;
   }
   .description{
     position: relative;
-    font-size: 1.7vw;
+    font-size: 1rem;
     border-top: 1px solid black;
    width: 100%;
-    font-weight: normal;
-    padding: 0em;
+    font-weight: 400;
+   
   }
   
 .price{
@@ -270,24 +297,28 @@ right: 0;
   text-align: center;
   }
 .name {
+  padding: 0.3em;
 position: relative;
-font-size: 3vw;
+font-size: 1.8rem;
  display: block;
 font-weight: normal;
+border-bottom: 1px solid black;
 }
 .description{
   position: relative;
-  font-size: 1.7vw;
-  font-weight: normal;
+  font-size: 1.3rem;
+  font-weight: 400;
   display: block;
+  padding: 4px;
+  text-align: center;
+  border-top: 1px solid black;
 }
 
 .price{
+  padding: 0.3em;
   text-align: center;
-  font-size: 1.9vw;
+  font-size: 1.5rem;
    position: relative;
-  
- 
 }
 #product-component-1594604439669{
   position: relative;
@@ -295,6 +326,7 @@ font-weight: normal;
   z-index: 999;
  
 }
+
 .footer{
   position: fixed;
   bottom: 0;
