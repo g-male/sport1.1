@@ -232,13 +232,13 @@ height: 43vh;
 /* ------BACKGROUND IMAGE---------*/
 /* background images */
 
-.img1 { background-image: url("/img/inspo1.png");
+.img1 { background-image: url("/img/inspo1.jpg");
 
 }
 
-.img2 { background-image: url("/img/inspo4.png")}
-.img3 { background-image: url("/img/inspo3.png")}
-.img4 { background-image: url("/img/inspo2.png")}
+.img2 { background-image: url("/img/inspo4.jpg")}
+.img3 { background-image: url("/img/inspo3.jpg")}
+.img4 { background-image: url("/img/inspo2.jpg")}
 
 
 
