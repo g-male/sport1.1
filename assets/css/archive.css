@@ -23,9 +23,7 @@ p{
     border: black solid 1px;
    
 }
-.txt a:hover{
- 
-}
+
 @media screen and  (min-width: 300px){
   .img{
     width: 98%;
@@ -68,9 +66,7 @@ margin-left: 1.5rem;
  .fltright{
    float: right;
  }
- .fltright:hover{
-   
- }
+
      /*Position and size images */
     .img{
       display: none;
@@ -293,4 +289,4 @@ cursor: pointer;
 }
 
 
- 
+#loadOverlay{display: none;}

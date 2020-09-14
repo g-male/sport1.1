@@ -232,7 +232,7 @@ height: 43vh;
 /* ------BACKGROUND IMAGE---------*/
 /* background images */
 
-.img1 { background-image: url("/img/inspo1.jpg");
+.img1 { background-image: url("/img/inspo5.jpg");
 
 }
 
@@ -240,7 +240,7 @@ height: 43vh;
 .img3 { background-image: url("/img/inspo3.jpg")}
 .img4 { background-image: url("/img/inspo2.jpg")}
 
-
+.img5 { background-image: url("/img/inspo6.jpg")}
 
 /* 
 .animg:hover {
@@ -358,3 +358,4 @@ height: 43vh;
 }
 
 }
+#loadOverlay{display: none;}
