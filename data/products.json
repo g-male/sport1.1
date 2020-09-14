@@ -10,42 +10,42 @@
     "id": "5320113619104",
     "name": "Macintosh Tee",
     "price": 30,
-    "image": "/img/appletee.png",
+    "image": "/img/appletee.jpg",
     "product_url": "/shop/macintosh_tee"
   }, 
   {
     "id": "5320130855072",
     "name": "Macintosh Tee",
     "price": 30,
-    "image": "/img/blacksport.png",
+    "image": "/img/new sport black.jpg",
     "product_url": "/shop/macintosh_tee-black"
   }, 
   {
     "id": "5320115028128",
     "name": "IBM Tee",
     "price": 30,
-    "image": "/img/IBM.png",
+    "image": "/img/IBM.jpg",
     "product_url": "/shop/ibm_tee"
   },
   {
     "id": "5320117551264",
     "name": "Wholesale Tee",
     "price": 30,
-    "image": "/img/wholesale.png",
+    "image": "/img/wholesale.jpg",
     "product_url": "/shop/wholesale_tee"
   },
   {
     "id": "5320149074080",
     "name": "Black Tote",
     "price": 30,
-    "image": "/img/blacktote.png",
+    "image": "/img/blacktote.jpg",
     "product_url": "/shop/black_tote"
   },
   {
     "id": "5320164278432",
     "name": "Beige Tote",
     "price": 20,
-    "image": "/img/canvastote.png",
+    "image": "/img/canvastote.jpg",
     "product_url": "/shop/beige_tote"
   },
   {
