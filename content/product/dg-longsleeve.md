@@ -1,6 +1,6 @@
 ---
 name: "D&G Pocket Longsleeve"
-image: "/img/dglongsleeve_back.png"
+image: "/img/dglongsleeve_back_700.jpg"
 image2: 
 image3: 
 image4:

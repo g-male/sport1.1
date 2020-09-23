@@ -3,70 +3,70 @@
     "id": "5320263041184",
     "name": "D&G Longsleeve",
     "price": 40,
-    "image": "/img/dglongsleeve_back.png",
+    "image": "/img/dglongsleeve_back_500.jpg",
     "product_url": "/shop/dg_longsleeve"
   }, 
   {
     "id": "5320113619104",
     "name": "Macintosh Tee",
     "price": 30,
-    "image": "/img/appletee.jpg",
+    "image": "/img/appletee_500.jpg",
     "product_url": "/shop/macintosh_tee"
   }, 
   {
     "id": "5320130855072",
     "name": "Macintosh Tee",
     "price": 30,
-    "image": "/img/new sport black.jpg",
+    "image": "/img/new sport black_500.jpg",
     "product_url": "/shop/macintosh_tee-black"
   }, 
   {
     "id": "5320115028128",
     "name": "IBM Tee",
     "price": 30,
-    "image": "/img/IBM.jpg",
+    "image": "/img/IBM_500.jpg",
     "product_url": "/shop/ibm_tee"
   },
   {
     "id": "5320117551264",
     "name": "Wholesale Tee",
     "price": 30,
-    "image": "/img/wholesale.jpg",
+    "image": "/img/wholesale_500.jpg",
     "product_url": "/shop/wholesale_tee"
   },
   {
     "id": "5320149074080",
     "name": "Black Tote",
     "price": 30,
-    "image": "/img/blacktote.jpg",
+    "image": "/img/blacktote_500.jpg",
     "product_url": "/shop/black_tote"
   },
   {
     "id": "5320164278432",
     "name": "Beige Tote",
     "price": 20,
-    "image": "/img/canvastote.jpg",
+    "image": "/img/canvastote_500.jpg",
     "product_url": "/shop/beige_tote"
   },
   {
     "id": "5320341815456",
     "name": "Navy Bucket Hat",
     "price": 25,
-    "image": "/img/navy bucket.jpg",
+    "image": "/img/navy bucket_500.jpg",
     "product_url": "/shop/navy_bucket"
   },
   {
     "id": "5320322515104",
     "name": "Beige Bucket Hat",
     "price": 25,
-    "image": "/img/beige bucket.jpg",
+    "image": "/img/beige bucket_500.jpg",
     "product_url": "/shop/beige_bucket"
   },
   {
     "id": "5320343617696",
     "name": "Pleasure Cap",
     "price": 25,
-    "image": "/img/pleasurecap.jpg",
+    "image": "/img/pleasurecap_500.jpg",
     "product_url": "/shop/pleasure_cap"
   }
 ]

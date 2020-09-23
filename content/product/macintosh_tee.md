@@ -1,7 +1,7 @@
 ---
 name: "Macintosh Tee"
-image: "/img/appletee.png"
-image2: "/img/sport-tee2.jpeg"
+image: "/img/appletee_700.jpg"
+image2: 
 image3: 
 image4:
 shortDescription: 100% 10oz Cotton - Alstyle 1301 

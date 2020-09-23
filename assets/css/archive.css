@@ -45,7 +45,8 @@ p{
   }
   .img.popup{
     width: 100%;
-margin-left: 1.5rem;
+    margin: auto 0;
+
   }
   .parent{
     margin-top: 4em;
@@ -168,8 +169,8 @@ height: 100%;
 display: none;
   }
   .img.comfspeed{
-    width: 50%;
-    left: 25%;
+    width: 40%;
+    left: 30%;
   }
   .img.popup{
     width: 55%;

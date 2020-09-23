@@ -13,10 +13,7 @@ body, html {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-body {
-  font-family: 'Josefin Sans', sans-serif;
-  cursor: url('/static/img/cursor.svg'), auto;
-}
+
 
 .weblogo{
   z-index: 99999;
@@ -41,7 +38,9 @@ width: 20%;
 
 }
 @media screen and  (min-width: 200px){
-
+.sizeselect{
+  display: none;
+}
   body{
     overflow-x: hidden;
   }
@@ -199,7 +198,7 @@ display: none;
       font-size: 1.3rem;
       font-weight: 400;
       display: block;
-      padding: 4px;
+      padding: 0.3em;
       text-align: center;
       border-top: 1px solid black;
     }
@@ -207,7 +206,7 @@ display: none;
     .price{
       padding: 0.3em;
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
        position: relative;
     }
   
@@ -309,7 +308,7 @@ border-bottom: 1px solid black;
   font-size: 1.3rem;
   font-weight: 400;
   display: block;
-  padding: 4px;
+  padding: 0.3em;
   text-align: center;
   border-top: 1px solid black;
 }
@@ -317,7 +316,7 @@ border-bottom: 1px solid black;
 .price{
   padding: 0.3em;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
    position: relative;
 }
 #product-component-1594604439669{

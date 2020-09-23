@@ -1,6 +1,6 @@
 ---
 name: "Beige Bucket Hat"
-image: "/img/beige bucket.jpg"
+image: "/img/beige bucket_700.jpg"
 image2: 
 image3: 
 image4:

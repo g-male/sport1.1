@@ -1,7 +1,7 @@
 ---
 name: "IBM TEE"
-image: "/img/IBM.png"
-image2: "/img/ibm-tee2.jpeg"
+image: "/img/IBM_700.jpg"
+image2: 
 image3: 
 image4:
 shortDescription: " 100% 10oz Cotton - Alstyle 1301"

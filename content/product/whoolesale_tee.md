@@ -1,6 +1,6 @@
 ---
 name: "Wholesale Tee"
-image: "/img/wholesale.png"
+image: "/img/wholesale_700.jpg"
 image2:
 image3: 
 image4:

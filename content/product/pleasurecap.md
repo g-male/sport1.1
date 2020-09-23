@@ -1,6 +1,6 @@
 ---
 name: "Pleasure Cap"
-image: "/img/pleasurecap.jpg"
+image: "/img/pleasurecap_700.jpg"
 image2: 
 image3: 
 image4:
