@@ -63,6 +63,21 @@ p{
   
 }
 @media screen and  (min-width: 300px){
+  .resources{
+    border: 1px solid blue;
+    display: block;
+    padding: 10px;
+  }
+  .blmlist{
+    border: 1px solid blue;
+    display: block;
+    padding: 10px;
+  }
+  .sportdesc{
+    border: 1px solid blue;
+    display: block;
+    padding: 10px;
+  }
   ul li{
     font-size: 1.5rem;
   }
@@ -88,7 +103,7 @@ p{
     
   }
   p{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .sportdesc{
@@ -176,9 +191,9 @@ color:#1d31e7;
   }
   .sportdesc{
    text-align: left;
-   border: 1px solid black;
+   border: 1px solid blue;
    
-   border-radius: 30rem;
+  
   }
 .mblinfo{
   display: none;
@@ -192,7 +207,7 @@ color:#1d31e7;
 }
 .emailinfo{
   position: relative;
-  text-align: center;
+ 
 
 
 }
