@@ -41,12 +41,12 @@ body {
   justify-content: left;
   align-items: flex-start;
 overflow: hidden;
- 
+ border-top: 2px black solid;
 }
 .product-card{
  
-border: 1.5px solid black;
-
+border-right: 2px solid black;
+border-bottom: 2px solid black;
 }
 .product-card {
 border-left: 1px solid transparent;

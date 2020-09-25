@@ -267,14 +267,14 @@ height: 45%;
 /* ------LOGO SPIN ANIMATION------- --*/
 /* ------LOGO SPIN ANIMATION------- -- */
 .shopanimg{
-  height: 230px;
-  width: 350px;
+  height: 180px;
+  width: 240px;
   animation-name: animg2;
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -115px;
-  margin-left: -175px;
+  margin-top: -90px;
+  margin-left: -120px;
 display: inline-block;
   animation-duration: 8500ms;
   animation-timing-function: linear;
@@ -308,10 +308,11 @@ display: inline-block;
 .shopanimg{
 	animation-name: animg;
 	position: fixed;
-	
+  height: 280px;
+  width: 400px;
 	 top: 50%;
   left: 50%;
-  margin-top: -115px;
+  margin-top: -140px;
   margin-left: -200px;
 
 	animation-duration:70000ms;
