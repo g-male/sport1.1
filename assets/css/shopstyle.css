@@ -60,7 +60,7 @@ border-left: 1px solid transparent;
   .product-name{
     font-size: 1.5rem;
     text-align: center;
-
+color: #dfdfe5;
       }
 .product-price {
 font-size: 13px;
@@ -83,7 +83,9 @@ margin: 0 auto;
 
 }
 
-
+.name{
+  display:none;
+}
   @media (min-width: 300px){
     .product-name{
       font-size: 1.3rem;
@@ -112,6 +114,8 @@ margin: 0 auto;
    
 
     }
+  
+
  .products{
    overflow: hidden;
  }
@@ -142,6 +146,9 @@ margin: 0 auto;
       flex-grow: 0;
      padding: 1.5rem;
     }
+    .product-img:hover + .product-name{
+      color: black;
+          }
 }
 
 #loadOverlay{display: none;}

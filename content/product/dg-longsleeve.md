@@ -1,7 +1,7 @@
 ---
 name: "D&G Pocket Longsleeve"
-image: "/img/dglongsleeve_back_700.jpg"
-image2: 
+image: "/img/LS_front.png"
+image2: "/img/dglongsleeve_back_700.png"
 image3: 
 image4:
 shortDescription: " 100% 10oz Cotton"

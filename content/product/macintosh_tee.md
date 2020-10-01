@@ -1,6 +1,6 @@
 ---
 name: "Macintosh Tee"
-image: "/img/appletee_700.jpg"
+image: "/img/appletee_700.png"
 image2: 
 image3: 
 image4:

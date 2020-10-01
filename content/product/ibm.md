@@ -1,6 +1,6 @@
 ---
 name: "IBM TEE"
-image: "/img/IBM_700.jpg"
+image: "/img/IBM_700.png"
 image2: 
 image3: 
 image4:
