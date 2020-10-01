@@ -9,15 +9,6 @@ fields:
   name: image
   label: image
 - type: text
-  name: image2
-  label: image2
-- type: text
-  name: image3
-  label: image3
-- type: text
-  name: image4
-  label: image4
-- type: text
   name: shortDescription
   label: shortDescription
 - type: number
@@ -26,18 +17,6 @@ fields:
 - type: text
   name: id
   label: id
-- type: text
-  name: idS
-  label: idS
-- type: text
-  name: idM
-  label: idM
-- type: text
-  name: idL
-  label: idL
-- type: text
-  name: idXL
-  label: idXL
 - type: text
   name: url
   label: url
