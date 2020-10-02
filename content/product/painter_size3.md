@@ -1,7 +1,7 @@
 ---
 name: "cloud"
-image: "/img/cloud28bit.png"
-image2: 
+image: "/img/cloud18bit.png"
+image2: "/img/cloud28bit.png"
 image3: 
 image4:
 shortDescription: 100% Cotton

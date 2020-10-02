@@ -1,7 +1,7 @@
 ---
 name: "green blue"
-image: "/img/green-blue28bit.png"
-image2: 
+image: "/img/green-blue18bit.png"
+image2: "/img/green-blue28bit.png"
 image3: 
 image4:
 shortDescription: 100% Cotton

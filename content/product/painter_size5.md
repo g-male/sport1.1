@@ -1,7 +1,7 @@
 ---
 name: "green-yellow"
-image: "/img/green-yellow28bit.png"
-image2: 
+image: "/img/green-yellow18bit.png"
+image2: "/img/green-yellow28bit.png"
 image3: 
 image4:
 shortDescription: 100% Cotton

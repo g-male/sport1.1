@@ -90,7 +90,7 @@ margin: 0 auto;
     .product-name{
       font-size: 1.3rem;
       text-align: center;
-  
+  display: none;
         }
    
     .product-card{
@@ -114,7 +114,9 @@ margin: 0 auto;
    
 
     }
-  
+  .product-name{
+    display: block;
+  }
 
  .products{
    overflow: hidden;

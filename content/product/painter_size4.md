@@ -1,7 +1,7 @@
 ---
 name: "mets"
-image: "/img/mets28bit.png"
-image2: 
+image: "/img/mets18bit.png"
+image2: "/img/mets28bit.png"
 image3: 
 image4:
 shortDescription: 100% Cotton

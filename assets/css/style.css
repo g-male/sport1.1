@@ -29,6 +29,46 @@ width: 200px;
   margin-top: 1em;
   overflow: visible;
   }
+
+  /* ------BACKGROUND IMAGE---------*/
+/* background images */
+
+.img1 { background-image: url("/img/inspo5.jpg");
+
+}
+
+.img2 { background-image: url("/img/inspo4.jpg");}
+.img3 { background-image: url("/img/inspo3.jpg");}
+.img4 { background-image: url("/img/inspo2.jpg");}
+
+.img5 { background-image: url("/img/inspo6.jpg");}
+.img6 { background-image: url("/img/shoes stacked.jpg");}
+.img7 { background-image: url("/img/so sporthshoe.jpg");}
+.img8 { background-image: url("/img/sport sidebag.jpg");}
+.img9 { background-image: url("/img/janSPORT.jpg");}
+.img10 { background-image: url("/img/boxers.jpg")}
+.img11 { background-image: url("/img/fannybestfashion.jpg")}
+.img12{ background-image: url("/img/fannysport.jpg")}
+.img13{ background-image: url("/img/blue shorts.jpg")}
+.img14{ background-image: url("/img/bag on move_1.jpg")}
+.img15{ background-image: url("/img/bag on move.jpg")}
+.img16{ background-image: url("/img/woolsocks.jpg")}
+.img17{ background-image: url("/img/top sportif.jpg")}
+.img18{ background-image: url("/img/sportjacket.jpg")}
+.img19{ background-image: url("/img/sporthouse2.jpg")}
+.img20{ background-image: url("/img/sport house.jpg")}
+.img22{ background-image: url("/img/sport gloves.jpg")}
+.img23{ background-image: url("/img/sport durag.jpg")}
+.img24{ background-image: url("/img/sport bars.jpg")}
+.img25{ background-image: url("/img/pinkshoe2.jpg")}
+.img26{ background-image: url("/img/pink sport socks.jpg")}
+.img27{ background-image: url("/img/pink slides.jpg")}
+.img28{ background-image: url("/img/hercules.jpg")}
+.img29{ background-image: url("/img/fuzzysocks.jpg")}
+.img30{ background-image: url("/img/cozyshoes.jpg")}
+.img31{ background-image: url("/img/charlie sport.jpg")}
+.img32{ background-image: url("/img/cargocamo.jpg")}
+
 .shopanimg{
   z-index: 10;
   overflow-y: scroll;
@@ -163,7 +203,8 @@ height: 45%;
 }
 @media (min-width:650px){
   .bg-image{
-    height: 50%;
+    
+    height: 80%;
      margin-bottom: 2vh;
    }
   .toplogo{
@@ -221,7 +262,7 @@ height: 45%;
 }
 @media (min-width: 992px) /*desktop */   {
   .bg-image{
-    height: 50%;
+    height: 80%;
      margin-bottom: 2vh;
    }
   .toplogo{
@@ -245,18 +286,7 @@ height: 45%;
 
 }
 
-/* ------BACKGROUND IMAGE---------*/
-/* background images */
 
-.img1 { background-image: url("/img/inspo5.jpg");
-
-}
-
-.img2 { background-image: url("/img/inspo4.jpg")}
-.img3 { background-image: url("/img/inspo3.jpg")}
-.img4 { background-image: url("/img/inspo2.jpg")}
-
-.img5 { background-image: url("/img/inspo6.jpg")}
 
 /* 
 .animg:hover {

@@ -109,8 +109,12 @@ object-fit: contain;
 
 }
 
-.product-image.two{
-  display: none;
+.product-image .two{
+  display: block;
+  position: relative;
+  width: 100%;
+  border: none;
+  object-fit: contain;
 }
 #product-component-1595195330623{
   position: relative;
@@ -126,6 +130,7 @@ object-fit: contain;
   z-index: 999;
   background-image: none;
   height: 50px;
+  margin-top: 1.5rem;
 }
 #product-component-1594604439669{
 display: none;
