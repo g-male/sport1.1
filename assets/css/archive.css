@@ -32,6 +32,7 @@ p{
 .txt{
   font-size: 2rem;
   margin-bottom: 0.5rem;
+
 }
 }
  @media screen and  (min-width: 767px){
@@ -60,8 +61,8 @@ p{
    display: inline-block;
    margin: 0 auto;
    
-
-    margin-left: 2rem;
+cursor: pointer;
+margin-left: 3.5rem;
 
  }
  .fltright{
@@ -95,7 +96,8 @@ p{
    z-index: 9999;
    border-width: 15%;
    z-index: 999;
-padding-left: 3rem;
+
+cursor: pointer;
     }
     .txt:hover + .fltright:hover{
  
@@ -187,11 +189,9 @@ display: none;
  #archive-list{
    width: 100%;
    display: inline-block;
-   margin: 0 auto;
-   
- 
-    
+   margin: 0 auto;  
 cursor: pointer;
+margin-left: 3.5rem;
  }
  .fltright{
    float: right;
@@ -217,22 +217,25 @@ cursor: pointer;
 
          /*Position and size text */
     .txt{
+    
     margin: 0 auto;
       position: absolute;
      display: block;
       width: 90%;
       height: auto;
-   font-size: 3rem;
+   font-size: 4.5rem;
    font-weight: lighter;
    z-index: 9999;
    border-width: 15%;
    z-index: 999;
 
     }
-    .txt:hover{
   
-   }
-  
+  .txt:hover{
+     border-bottom: 3px solid black;
+       }
+
+
  
    /*Show image on hover */
     .txtfriendsfam:hover + .friendsfam{

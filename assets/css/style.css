@@ -13,6 +13,7 @@ background-color: #dfdfe5;
 /* for animation star */ 
 #main{
   width: auto;
+ 
 }
 /* navigation bar */ 
 .weblogo{
@@ -190,7 +191,7 @@ border-bottom: #fffb00 solid 3px;
 
 @media (min-width: 250px){
 .bg-image{
-height: 55%;
+height: 50%;
   margin-bottom: 2vh;
 
 }
@@ -262,7 +263,7 @@ height: 55%;
 }
 @media (min-width: 992px) /*desktop */   {
   .bg-image{
-    height: 80%;
+    height: 70%;
      margin-bottom: 2vh;
    }
   .toplogo{

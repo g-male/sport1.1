@@ -1,0 +1,22 @@
+<head>
+    {{partial "header.html" . }}
+  {{ partial "producthead.html" . }}
+  {{ $style := resources.Get "css/photoarchive.css"}}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  </head>
+
+<body>
+    <div class="imgcontainer"> 
+        
+        <img class="img coachjacket" src="/img/coachjacket.jpg" style="width: 75%;" >
+        <img class="img faven" src="/img/favenLS.jpg" >
+
+<br><img class="img tiedye1" src="/img/deeneims.jpg"style="width: 35%;" >
+<img class="img tiedye1" src="/img/neimah.jpg" style="width: 35%;">
+<img class="img tiedie3" src="/img/theo.jpg" >
+
+
+</div>
+
+</body>
+
