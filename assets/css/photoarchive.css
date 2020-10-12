@@ -11,7 +11,7 @@ margin: 3vw;
   }
 .img{
     width: 100%;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
   }
 @media screen and  (min-width: 767px){
@@ -22,6 +22,34 @@ margin: 3vw;
         position: relative;
         display: inline-block;
     }
+    .hackie{
+      width: 60%;
+      padding-bottom: 0.5rem;
+      margin: 0 auto;
+      position: relative;
+      display: inline-block;
+    }
+    .kieran{
+      width: 60%;
+      padding-bottom: 0.5rem;
+      margin: 0 auto;
+      position: relative;
+      display: inline-block;
+    }
+    .kippgrass{
+      width: 60%;
+      padding-bottom: 0.5rem;
+      margin: 0 auto;
+      position: relative;
+      display: inline-block;
+    }
+    .totebag1{
+      width: 55%;
+    
+      margin: 0 auto;
+      position: relative;
+      display: inline-block;
+    }
     .imgcontainer{
         width: 100%;
         position: relative;
@@ -30,7 +58,7 @@ margin: 3vw;
         margin-top: 2vw;
     }
     .coachjacket{
-      width: 50%;
+      width: 55%;
         padding-bottom: 0.5rem;
         margin: 0 auto;
         position: relative;

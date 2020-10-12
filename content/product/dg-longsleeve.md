@@ -5,7 +5,7 @@ image2: "/img/dglongsleeve_back_700.png"
 image3: 
 image4:
 shortDescription: " 100% 10oz Cotton"
-price: 30
+price: 40
 id: "5320263041184"
 url: "/shop/dg_longsleeve"
 ---

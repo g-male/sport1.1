@@ -30,8 +30,6 @@
   <div style="text-align:center; width: 100%;">  
   <div class="sizeselect">
 
-  {{ partial "sizesmall.html" . }}  {{ partial "sizemed.html" . }}
-  {{ partial "sizelarge.html" . }}     {{ partial "sizexlarge.html" . }}
 
 </div>
 </div>
@@ -48,7 +46,7 @@
     <a class="price"> {{.Params.Price}} CAD </a>
     <a class="description" > {{ .Params.shortDescription }}</a>
   </div>
-  <a>SELECT A SIZE </a>
+
 {{ partial "sizeselection.html" . }}
 
 

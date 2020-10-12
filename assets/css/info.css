@@ -9,6 +9,9 @@ a{
 hr{
   
 }
+li a{
+  font-size: 1rem;
+}
 a:visited {
   color: black;
 }
@@ -73,9 +76,10 @@ p{
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33%;
+  width: 49%;
   padding: 10px;
 margin: 2px;
+
 }
 
 /* Clear floats after the columns */
@@ -169,7 +173,12 @@ margin: 2px;
 }
 }
 @media screen and  (min-width: 768px){
- 
+ .column a{
+   font-size: 1.5rem;
+ }
+ .column a:hover{
+   text-decoration: underline;
+ }
   #blmjump a:hover{
     color: blue;
   }

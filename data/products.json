@@ -44,49 +44,49 @@
   {
     "id": "5320263041184",
     "name": "D&G Longsleeve",
-    "price": 30,
+    "price": 40,
     "image": "/img/dglongsleeve_back_700.png",
     "product_url": "/shop/dg_longsleeve"
   }, 
   {
     "id": "5320113619104",
     "name": "Macintosh Tee",
-    "price": 20,
+    "price": 30,
     "image": "/img/appletee_700.png",
     "product_url": "/shop/macintosh_tee"
   }, 
   {
     "id": "5320130855072",
     "name": "Macintosh Tee",
-    "price": 20,
+    "price": 30,
     "image": "/img/blacksport.png",
     "product_url": "/shop/macintosh_tee-black"
   }, 
   {
     "id": "5320115028128",
     "name": "IBM Tee",
-    "price": 20,
+    "price": 30,
     "image": "/img/IBM_700.png",
     "product_url": "/shop/ibm_tee"
   },
   {
     "id": "5320117551264",
     "name": "Wholesale Tee",
-    "price": 20,
+    "price": 30,
     "image": "/img/wholesale_700.png",
     "product_url": "/shop/wholesale_tee"
   },
   {
     "id": "5320149074080",
     "name": "Black Tote",
-    "price": 25,
+    "price": 30,
     "image": "/img/blacktote_700.png",
     "product_url": "/shop/black_tote"
   },
   {
     "id": "5320164278432",
     "name": "Beige Tote",
-    "price": 15,
+    "price": 20,
     "image": "/img/canvastote_700.png",
     "product_url": "/shop/beige_tote"
   },
