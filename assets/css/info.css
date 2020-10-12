@@ -1,6 +1,9 @@
 html{
   font-size: 16px;
 }
+body{
+  -webkit-text-size-adjust: none; 
+}
 a{
   font-weight: normal;
   font-size: 2rem;
@@ -98,6 +101,13 @@ margin: 2px;
 
 
 @media screen and  (min-width: 300px){
+  .column a{
+    font-size: 0.5rem;
+    color: black;
+  }
+  .row a{
+    font-size: 0.5rem;
+  }
 .block1{
   width: 100%;
 }
@@ -118,10 +128,17 @@ margin: 2px;
     display: block;
     padding: 10px;
   }
-  ul li{
-    font-size: 1.5rem;
+li a{
+    font-size: 1rem;
+
+    box-decoration-break: clone;
   }
- 
+  .column{
+    word-wrap: none;
+  }
+ li{
+   padding-bottom: 10px;
+ }
   input[type=text] {
     width: 60%;
     box-sizing: border-box;
@@ -162,7 +179,7 @@ margin: 2px;
 }
 
 .main a{
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 #newsform{
   position: relative;
@@ -175,6 +192,7 @@ margin: 2px;
 @media screen and  (min-width: 768px){
  .column a{
    font-size: 1.5rem;
+   color: black;
  }
  .column a:hover{
    text-decoration: underline;
