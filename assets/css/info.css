@@ -65,24 +65,48 @@ p{
   list-style-type: none;
   
 }
+/* column layout */
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+margin: 2px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
 @media screen and  (min-width: 300px){
-  .resourceblock ul{
-    list-style-type: none;
-  }
-  .resourceblock{
-    width: 75%;
-    margin: 0 auto;
-   
-  }
-  .formdesc p{
-    font-size: 2.5rem;
-    
-  }
+.block1{
+  width: 100%;
+}
+ .resources a{
+   font-size: 0.5rem;
+ }
   .resources{
     border: 2px solid #1d31e7;
     display: block;
     padding: 10px;
     line-height: 1.4;
+   
+    word-wrap: break-word;
   }
 
   .sportdesc{
@@ -132,25 +156,20 @@ p{
 .split{
   display: none;
 }
-p{
-  font-size: 4rem;
-  font-weight: 600;
-}
+
 .main a{
-  font-size: 3rem;
+  font-size: 2rem;
 }
 #newsform{
   position: relative;
   left: 0;
 }
-
+#emaillink {
+  font-size: 2rem;
+}
 }
 @media screen and  (min-width: 768px){
-  .resourceblock{
-    width: 75%;
-  
-    margin: 0 auto;
-  }
+ 
   #blmjump a:hover{
     color: blue;
   }
@@ -159,7 +178,7 @@ p{
     color: red;
   }
 ul li{
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 input[type=text] {
   width: 60%;
