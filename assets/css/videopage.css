@@ -15,14 +15,48 @@
     width: 100%;
     
     }
+    .vid1{
+        display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    }
+    .vid3green{
+        display: inline-block;
+       
+        width: 100%;
+        position: relative;
+        padding: 15px;
+    }
 }
 
-@media screen and  (min-width: 992px){
+@media screen and  (min-width: 767px){
+    .twovidblock{
+        width: 100%;
+     
+     margin-left: 3.5rem;
+     margin-left: 3.5rem;
+    }
     video{
     display: block;
 margin: 0 auto;
 width: 65%;
 }
+.vid1{
+   
+    display: inline;
+
+width: 40%;
+
+}
+.vid3green{
+    
+   display: inline;
+    width: 40%;
+
+  
+}
+
 .sockimg{
     width: 40%;
     display: block;
@@ -31,5 +65,6 @@ width: 65%;
 }
 .centered{ 
 width: 100%;
+
 }
 }

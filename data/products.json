@@ -2,112 +2,112 @@
   {
     "id": "5747146621088",
     "name": "32x32",
-    "price": 50,
+    "price": "$50",
     "image": "/img/orangepurp28bit.png",
     "product_url": "/shop/painter_size1"
   }, 
   {
     "id": "5747151536288",
     "name": "34x34",
-    "price": 50,
+    "price": "$50",
     "image": "/img/green-blue28bit.png",
     "product_url": "/shop/painter_size2"
   }, 
   {
     "id": "5747153731744",
     "name": "34x32",
-    "price": 50,
+    "price": "$50",
     "image": "/img/cloud28bit.png",
     "product_url": "/shop/painter_size3"
   }, 
   {
     "id": "5747156418720",
     "name": "32x32",
-    "price": 50,
+    "price": "Sold Out",
     "image": "/img/mets28bit.png",
     "product_url": "/shop/painter_size4"
   }, 
   {
     "id": "5747160383648",
     "name": "32x32",
-    "price": 50,
+    "price":"$50",
     "image": "/img/green-yellow28bit.png",
     "product_url": "/shop/painter_size5"
   }, 
   {
     "id": "5747162349728",
     "name": "30x30",
-    "price": 50,
+    "price": "$50",
     "image": "/img/yellow-green28bit.png",
     "product_url": "/shop/painter_size6"
   }, 
   {
     "id": "5320263041184",
     "name": "D&G Longsleeve",
-    "price": 40,
+    "price": "$40",
     "image": "/img/dglongsleeve_back_700.png",
     "product_url": "/shop/dg_longsleeve"
   }, 
   {
     "id": "5320113619104",
     "name": "Macintosh Tee",
-    "price": 30,
+    "price": "$30",
     "image": "/img/appletee_700.png",
     "product_url": "/shop/macintosh_tee"
   }, 
   {
     "id": "5320130855072",
     "name": "Macintosh Tee",
-    "price": 30,
+    "price": "$30",
     "image": "/img/blacksport.png",
     "product_url": "/shop/macintosh_tee-black"
   }, 
   {
     "id": "5320115028128",
     "name": "IBM Tee",
-    "price": 30,
+    "price": "$30",
     "image": "/img/IBM_700.png",
     "product_url": "/shop/ibm_tee"
   },
   {
     "id": "5320117551264",
     "name": "Wholesale Tee",
-    "price": 30,
+    "price": "$30",
     "image": "/img/wholesale_700.png",
     "product_url": "/shop/wholesale_tee"
   },
   {
     "id": "5320149074080",
     "name": "Black Tote",
-    "price": 30,
+    "price": "$30",
     "image": "/img/blacktote_700.png",
     "product_url": "/shop/black_tote"
   },
   {
     "id": "5320164278432",
     "name": "Beige Tote",
-    "price": 20,
+    "price": "$20",
     "image": "/img/canvastote_700.png",
     "product_url": "/shop/beige_tote"
   },
   {
     "id": "5320341815456",
     "name": "Navy Bucket Hat",
-    "price": 25,
+    "price": "$25",
     "image": "/img/navy bucket_700.png",
     "product_url": "/shop/navy_bucket"
   },
   {
     "id": "5320322515104",
     "name": "Beige Bucket Hat",
-    "price": 25,
+    "price": "$25",
     "image": "/img/beige bucket_700.png",
     "product_url": "/shop/beige_bucket"
   },
   {
     "id": "5320343617696",
     "name": "Pleasure Cap",
-    "price": 25,
+    "price": "$25",
     "image": "/img/pleasurecap_700.png",
     "product_url": "/shop/pleasure_cap"
   }
