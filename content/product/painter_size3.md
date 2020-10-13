@@ -7,7 +7,7 @@ image4:
 shortDescription: Hand Dyed Dickies Painter Pants
 longDescription: If your size isn’t available, send us your preferred colours and
   size for a custom order
-price: Sold Out
+price: "50"
 id: "5747153731744"
 url: "/shop/painter_size3"
 
