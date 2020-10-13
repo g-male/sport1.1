@@ -200,7 +200,7 @@ li a{
   font-size: 2rem;
 }
 }
-@media screen and  (min-width: 768px){
+@media screen and  (min-width: 767px){
   .main a{
     font-size: 1.5rem;
   }
@@ -234,14 +234,17 @@ border-radius: 0;
   position: relative;
   text-align: center;
 }
+#newsbutton{
+  width: 60%;
+}
 .form p{
   font-size: 3rem;
   font-weight: 400;
   
 }
   .block3{
-    width: 75%;
-    margin: 0 auto;
+    
+   
   }
   .block3 ul{
     list-style-type: none;

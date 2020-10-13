@@ -24,7 +24,7 @@
 <div class="mobiletext"> 
   <div class="name"> {{ .Params.name }} <br> </div>
   <div class="price"> {{.Params.Price}} CAD</div> 
-  <div class="description" > {{ .Params.shortDescription | safeHTML }} <br> </div>
+  <div class="description" > {{ .Params.shortDescription | safeHTML }} <br> {{ .Params.longDescription | safeHTML }} <br> </div>
   <br>
   {{ partial "mbl_sizeselection.html" . }}
   <div style="text-align:center; width: 100%;">  
@@ -44,7 +44,7 @@
  <div class="text-border">
     <a class="name"> {{ .Params.name }}  </a>
     <a class="price"> {{.Params.Price}} CAD </a>
-    <a class="description" > {{ .Params.shortDescription }}</a>
+    <a class="description" > {{ .Params.shortDescription }} <br> <br> {{ .Params.longDescription | safeHTML }}</a>
   </div>
 
 {{ partial "sizeselection.html" . }}

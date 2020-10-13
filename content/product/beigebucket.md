@@ -5,7 +5,7 @@ image2:
 image3: 
 image4:
 shortDescription: 100% Cotton
-price: 25
+longDescription: Made in Canada
 id: "5320322515104"
 url: "/shop/beige_bucket"
 ---
