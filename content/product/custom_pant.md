@@ -1,5 +1,5 @@
 ---
-name: "Personalized Pair"
+name: "Custom Pair"
 image: "/img/custom_dickies2.png"
 image2: 
 image3: 
